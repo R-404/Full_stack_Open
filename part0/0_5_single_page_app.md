@@ -9,7 +9,7 @@ sequenceDiagram
     server-->>browser: spa.html
     deactivate server
 
-    Note right of browser: The form data elemnt doesn't have "action" and "method" it is replaced by just "id"
+    Note right of browser: The form data element doesn't have "action" and "method" it is replaced by just "id"
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate server
